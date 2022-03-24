@@ -18,16 +18,49 @@
     <section class="nav">
       <nav class="navbar">
         <span>
-          <img src="images/logo.svg" alt="Skriper logo" />
+          <a href="#"><img src="images/logo.svg" alt="Skriper logo" /></a>
         </span>
+
         <span class="navbar__content">
-          <a href="#" class="icon-container">
-            <span><img src="images/signature.svg" alt="signature icon" /></span>
-          </a>
-          <span class="icon-container icon">
-            <img src="images/account_profile.svg" alt="Account icon" />
+          <span class="navbar__desktop-content">
+            <a href="#" class="icon-container--desktop">
+              <span class="navbar-image"
+                ><img src="images/lit.svg" alt="lit icon"
+              /></span>
+              <span class="navbar__desktop-content1">Trends</span>
+            </a>
           </span>
-          <a href="#" class="icon-container icon icon--search">
+
+          <span class="navbar__desktop-content">
+            <a href="#" class="icon-container--desktop">
+              <span class="navbar-image"
+                ><img src="images/star.svg" alt="star icon"
+              /></span>
+              <span class="navbar__desktop-content1">Featured</span>
+            </a>
+          </span>
+
+          <span class="navbar__desktop-content">
+            <a href="#" class="icon-container--desktop">
+              <span class="navbar-image"
+                ><img src="images/clock.svg" alt="clock icon"
+              /></span>
+              <span class="navbar__desktop-content1">Lastest</span>
+            </a>
+          </span>
+
+          <a href="#" class="icon-container signature">
+            <span class="navbar-image"
+              ><img src="images/signature.svg" alt="signature icon"
+            /></span>
+            <span class="navbar__desktop-content2">Start Coding</span>
+          </a>
+
+          <span class="icon-container icon navbar-image Profile-Search">
+            <img src="images/account_profile.svg" alt="Account icon" />
+            <span class="navbar__desktop-content2">Login</span>
+          </span>
+          <a href="#" class="icon-container icon--search Profile-Search">
             <span>
               <img src="images/search_icon.svg" alt="Search icon" />
             </span>
@@ -66,13 +99,21 @@
             result.
           </p>
         </div>
-        <div>
-          <img src="images/image2.png" alt="HTML CSS Javascript image" />
+        <div class="imag2-container">
+          <img
+            class="image2"
+            src="images/image2.png"
+            alt="HTML CSS Javascript image"
+          />
         </div>
       </div>
 
-      <div class="grid">
-        <img src="images/share_code.png" alt="code to image illustration" />
+      <div class="grid2">
+        <img
+          class="grid__img"
+          src="images/share_code.png"
+          alt="code to image illustration"
+        />
         <div>
           <h3>Code to image</h3>
           <p>
@@ -84,8 +125,8 @@
         </div>
       </div>
 
-      <div class="grid">
-        <img src="images/snippets.png" alt="Snippet" />
+      <div class="grid2">
+        <img class="grid__img" src="images/snippets.png" alt="Snippet" />
         <div>
           <h3>snippets</h3>
           <p>
@@ -95,8 +136,8 @@
         </div>
       </div>
 
-      <div class="grid">
-        <img src="images/tutorials.png" alt="Tutorial" />
+      <div class="grid2">
+        <img class="grid__img" src="images/tutorials.png" alt="Tutorial" />
         <div>
           <h3>Video attached to your code</h3>
           <p>
@@ -106,8 +147,8 @@
         </div>
       </div>
 
-      <div class="grid">
-        <img src="images/markdown.png" alt="Tutorial" />
+      <div class="grid2">
+        <img class="grid__img" src="images/markdown.png" alt="Tutorial" />
         <div>
           <h3>Start writing</h3>
           <p>
@@ -119,7 +160,14 @@
     </section>
 
     <section class="footer grid--footer">
-      <img src="images/skriper.svg" alt="Skriper" />
+      <div>
+        <img src="images/skriper.svg" alt="Skriper" />
+        <div class="social-media">
+          <img src="images/twitter.svg" alt="Twitter" />
+          <img src="images/youtube.svg" alt="Youtuber" />
+          <img src="images/facebook.svg" alt="Facebook" />
+        </div>
+      </div>
       <div>
         <p class="footer__p">Links of interest</p>
         <a href="#">FAQ</a>
@@ -130,8 +178,6 @@
 
       <div>
         <p class="footer__copyright">Copyright Skriper.dev © 2022</p>
-      </div>
-      <div>
         <img src="images/contact_mail.svg" alt="contact@skriper.com" />
       </div>
     </section>
